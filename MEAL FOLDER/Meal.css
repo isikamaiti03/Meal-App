@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+input{
+    width:20rem;
+    background-color: rgb(95, 71, 71);
+    border: none;
+    color: white;
+    border-radius: 4px;
+}
+input:focus{
+    outline: none;
+    padding-left: 10px;
+}
+input::placeholder{
+    padding-left: 10px;
+    color: bisque;
+}
